@@ -26,7 +26,7 @@ The below diagram illustrates the solution architecture. AWS Step Function is us
       Amazon Athena is then used to create table structure on top of optimised parquet data and run analytical queries . Please note AWS Glue maintains the database catalogue and database table structure while Amazon Athena queries data in Amazon S3 using the AWS Glue database catalogue. The dataset is made of text description from movie reviews(source imdb). Finally we will visualise the results using Amazon QuickSight
 
 
-![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/arch_diagram.jpg)
+![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/arch_diagram.jpg)
 
 As part of this lab, you will be performing below high-level tasks:
 
@@ -43,10 +43,10 @@ First, login to AWS Console. Choose **us-west-2 region**. For this lab, we'll us
 # Step 1 : Reset environment. 
 
 * Navigate to the AWS Cloud 9 web console. To access Cloud9 search for Cloud9 in the AWS Console and Click on Cloud9.
-![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/Cloud9.png)  
+![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/Cloud9.png)  
 * Then select the Cloud9 environment named `Serverless Sentiment Analysis (Level 300)', and click the 'Open IDE' button for you to enter the IDE. 
 
-![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/ide.png)  
+![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/ide.png)  
 * After the interface loads, find the tab with the Terminal and click to maximize it
 
 * Copy the commands below
@@ -94,7 +94,7 @@ Running above commands does following:
 * Click on Start Execution at the top to trigger the pipeline. 
 * When prompted on next page, click on "Start Execution" again.
 
-![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/step_function.png)  
+![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/step_function.png)  
 
 
 The pipeline takes about 8-9 minutes to finish. In the meantime, lets create a table in Amazon Athena that points to optimised data and following that, lets setup Amazon QuickSight. Once the pipeline completes, you will just need to refresh the page in Amazon QuickSight to get results.
@@ -105,13 +105,13 @@ The pipeline takes about 8-9 minutes to finish. In the meantime, lets create a t
 * Navigate to Amazon Athena in AWS console. Please ensure that you are logged in us-west-2 region.
 * If it’s the first time you are using Athena in your AWS Account, you have to set up S3 bucket for saving results.
   - Click **Explore the query editor**. 
-  ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/athena1.png)  
+  ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/athena1.png)  
   - Then click on **View settings**. 
-  ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/athena2.png)  
+  ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/athena2.png)  
   - Next click on **Manage**. 
-  ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/athena3.png)  
+  ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/athena3.png)  
   - In the pop-up window in the Location of query result field, click on **Browse S3**.  
-  ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/athena4.png) 
+  ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/athena4.png) 
   - Choose the bucket with that was created earlier during AWS CLI run, then click on Select button. 
   - Click on Save.
   - Return to the **Editor** tab. 
@@ -149,39 +149,39 @@ LOCATION
 We can visualize Amazon Comprehend’s sentiment results by using Amazon QuickSight. 
 
 * In the AWS services console, search for QuickSight. Please ensure that you are logged in us-west-2 (Oregon) region. You can check this in the top right corner of the AWS console. 
-![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/qs-1.png)
+![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/qs-1.png)
 * If this is the first time you have used QuickSight in this account, you are prompted to create an account. When prompted **Click Sign up for QuickSight**. (Note: _If you are a retruning user or do not get prompted to set up account, then we must grant Amazon QuickSight access to Amazon Athena and the associated S3 bucket "datalakebucket" created in this lab. For more information on doing this, please see section "Make sure that you authorized Amazon QuickSight to use Athena" in   https://docs.aws.amazon.com/quicksight/latest/user/troubleshoot-connect-athena.html . Once S3 bucket access is granted, you can jump straight to step **On the top right corner, click New analysis** below._ )
-![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/qs-2.png)
+![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/qs-2.png)
 * For account type, choose the default **Enterprise** Version. Click **Continue**.
-![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/qs-3.png)
+![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/qs-3.png)
 * On the Create your QuickSight account page, for QuickSight account name give a unique name (e.g., quicksight-lab-_initals_-_randomstring_) and email address.
 * Choose the appropriate AWS region (us-west-2 for this workshop) and the check boxes to enable auto discovery, Amazon Athena, and Amazon S3.
 * Under Amazon S3, click **Choose S3 buckets**. Select newly created S3 bucket (through AWS CLI earlier) _"datalakebucket"_ .  
 * On next page, Click Finish.
-![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/qs-5.png)
+![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/qs-5.png)
 
 
 * On the top right corner, click **New analysis**. 
-![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/qs-6.png)
+![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/qs-6.png)
 * Click **New Data Set**.
-![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/qs-7.png)
+![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/qs-7.png)
 * On the **Create a Dataset** page, select **Athena** as the data source.  
-      ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/qs-8.png)
+      ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/qs-8.png)
       
 * Enter a name for your Athena data source. Lets call it **movie-review-dataset** , validate and choose **Create data source**. 
-      ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/validate_dataset.png)
+      ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/validate_dataset.png)
       
 * Choose database "default" and table "movie_review_score" created earlier in Amazon Athena. Click **Select**. If you dont see the database or table, then please check if you are in the right region (us-west-2 for this workshop).
-      ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/select_table.png)
+      ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/select_table.png)
       
 * Choose **Directly query your data** and click **Visualize**. 
-      ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/direct_query.png)
+      ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/direct_query.png)
       
 * Now we can create some visualizations by adding few columns such as "category", "positive_score" and "negative_score" into visualization. You will not see any data if the data pipeline has not completed.  
-      ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/visualise.png)      
+      ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/visualise.png)      
 
 * Let's open a new tab and check the status of data pipeline by navigating to AWS Step Functions. Once the data pipeline has completed successfully, navigate back to Amazon Quicksight tab and refresh screen. You will be able to see results now.  
-            ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/images/final_results.png)  
+            ![main_arch](https://github.com/aws-samples/devlab-serverless-sentiment-analysis/blob/main/images/final_results.png)  
  
  
 
