@@ -37,10 +37,10 @@ This lab assume that it's being executed in an AWS Cloud9 (https://aws.amazon.co
 * [Go to Cloud9 environment](https://console.aws.amazon.com/cloud9/)
 * Go to **Your Environments**.
 * Find the workspace named DevLab-IVSAmplify and click Open IDE:
-![cloud9 setup](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/tree/main/src/images/cloud9-setup.png)
+![cloud9 setup](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/blob/main/src/images/cloud9-setup.png)
 
 When you open the DevLab-IVSAmplify workspace, you'll be presented with a welcome screen that looks something like this:
-![cloud9 welcome](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/tree/main/src/images/cloud9-welcome.png)
+![cloud9 welcome](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/blob/main/src/images/cloud9-welcome.png)
 
 #### Prerequisite
 * This lab assume that resizie.sh from this repository is cloned into this Cloud9 environment. Now you are in Cloud9 environment, open a new terminal. Run the following command to resize the Amazon EBS volume: 
@@ -53,7 +53,7 @@ When you open the DevLab-IVSAmplify workspace, you'll be presented with a welcom
 	* Go to "CloudFormation" and choose the stack deployed for this Cloud9 environment. (If you don't know where to find, please ask the lab support)
 	* Go to "Outputs" tab
 	* Keep this tab open or copy **Access Key** and **SecretKey** in safe place. 
-	![cfn keys](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/tree/main/src/images/cfn-keys.png)		
+	![cfn keys](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/blob/main/src/images/cfn-keys.png)		
 
 ### Step 1. Create a simple react app
 
@@ -82,7 +82,7 @@ When you open the DevLab-IVSAmplify workspace, you'll be presented with a welcom
 		npm start
 
 You can see a preview of the running app by leveraging the preview runnng application feature in Cloud9.
-	![cloud9 preview](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/tree/main/src/images/cloud9-preview.png)	
+	![cloud9 preview](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/blob/main/src/images/cloud9-preview.png)	
 
 
 ### Step 2. Use Amplify and it’s plugins to set up a live streaming source
@@ -100,7 +100,7 @@ You can see a preview of the running app by leveraging the preview runnng applic
 
 	* For region, choose **"us-west-2"**
 
-	![amplify init](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/tree/main/src/images/amplify-init.png)	
+	![amplify init](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/blob/main/src/images/amplify-init.png)	
 
 
 This will initialise a new project inside your **React project** and you will see a new folder: **/amplify**. 
@@ -118,12 +118,12 @@ This will initialise a new project inside your **React project** and you will se
 * Run below command to explicitly add a plugin package to the Amplify CLI and provide **the absolute path to the plugin** from the previous step and press enter.
 
 		amplify plugin add video --save
-	![amplify video path](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/tree/main/src/images/amplify-video-path-find.png)	
+	![amplify video path](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/blob/main/src/images/amplify-video-path-find.png)	
 
 * Add a live streaming resource to your project. Follow the prompts to create an Amazon IVS channel. 
 
 		amplify video add	
-	![Amplify video add example](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/tree/main/src/images/amplify-video-add.png)
+	![Amplify video add example](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/blob/main/src/images/amplify-video-add.png)
 
 * Push the changes to AWS environment, and follow the prompt.
 
@@ -136,7 +136,7 @@ Once it’s successful, you will see the following outputs and **take a copy of 
     * Input url
     * Stream keys
     * Output url
-![Amplify output](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/tree/main/src/images/amplify-output.png)
+![Amplify output](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/blob/main/src/images/amplify-output.png)
 
 
 ### Step 3. Update the front-end to show playback video
@@ -152,10 +152,10 @@ Copy
 * To update playback url in App.js, open up **App.js** in your project and update **line 14** with the **Output url** from [Step 2.1](https://gitlab.aws.dev/maykyaw/build-live-streaming-app-with-amplify-and-ivs#step-21-cloudformation-output). 
 
 	
-![Playback url update](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/tree/main/src/images/playback.png)
+![Playback url update](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/blob/main/src/images/playback.png)
 
 Now you are all done and see the changes in preview.
-![cloud9 preview](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/tree/main/src/images/cloud9-preview.png)
+![cloud9 preview](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/blob/main/src/images/cloud9-preview.png)
 	
 ### Step 4. Setup OBS for live streaming
 
@@ -166,17 +166,17 @@ To manually set up
 * Then click **Ok** 
 * Now you can click on **Start Streaming**
 
-![OBS setup](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/tree/main/src/images/obs-settings.png)
-![OBS update](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/tree/main/src/images/obs-update.png)
+![OBS setup](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/blob/main/src/images/obs-settings.png)
+![OBS update](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/blob/main/src/images/obs-update.png)
 
 * (Optional) For a quick test, copy the “output url” from the [Step 2.1](https://gitlab.aws.dev/maykyaw/build-live-streaming-app-with-amplify-and-ivs#step-21-cloudformation-output) and go to [hlsPlayer.net](https://www.hlsplayer.net/) and paste the "output url" as shown below
 
-![hls test](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/tree/main/src/images/hls-test.png)
+![hls test](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/blob/main/src/images/hls-test.png)
 
 ### Step 5. Test your app
 	
 Now go back to Cloud9 environement. You can see a preview of the running app as below
-![output](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/tree/main/src/images/final.png)
+![output](https://github.com/aws-samples/live-streaming-app-with-amplify-and-ivs/blob/main/src/images/final.png)
 
 ### Step 6. Clean up resources
 To clean up resources, you will need to go to the root directory of your project and follow this command:
