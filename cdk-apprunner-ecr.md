@@ -365,11 +365,9 @@ Alternatively you can stay with manual deployment and trigger it whenever you ma
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
 
 ## Please help us improve by providing your feedback
-We would really appreciate if you can complete the lab survey (link below). This will help us improve your lab experience next time :) 
+Thank you for participating in this lab. Please leave us feedback to let us know how we did and for us to improve in future labs. If the QR code below doesn't work, you can click on the link [here](https://eventbox.dev/survey/CAXEOXX).
 
-![qr_code](/qr/cdk-apprunner-ecs.png)  
-
-[Survey Link](https://eventbox.dev/survey/CAXEOXX)
+![Survey QR Code](/qr/cdk-apprunner-ecs.png)
 
 
 ## License

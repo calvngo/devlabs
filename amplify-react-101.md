@@ -367,12 +367,10 @@ In order to remove the reesources, please make sure that you run the following c
 amplify delete
 ```
 
-## Tell us what you think 
-We would really appreciate if you can complete the lab survey (link below). This will help us improve your lab experience next time :) 
+## Tell us what you think
+Thank you for participating in this lab. Please leave us feedback to let us know how we did and for us to improve in future labs. If the QR code below doesn't work, you can click on the link [here](https://eventbox.dev/survey/0V41TAS).
 
-![qr_code](/qr/amplify-react-101.png)  
-
-[Survey Link](https://eventbox.dev/survey/0V41TAS)
+![Survey QR Code](/qr/amplify-react-101.png)
 
 ## License
 

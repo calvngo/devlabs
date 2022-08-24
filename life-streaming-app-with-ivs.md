@@ -187,8 +187,6 @@ To clean up resources, you will need to go to the root directory of your project
 [EBS resize] (https://docs.aws.amazon.com/cloud9/latest/user-guide/move-environment.html#move-environment-resize)
 
 ### Feedback
-We would really appreciate if you can complete the lab survey (link below). This will help us improve your lab experience next time :) 
+Thank you for participating in this lab. Please leave us feedback to let us know how we did and for us to improve in future labs. If the QR code below doesn't work, you can click on the link [here](https://eventbox.dev/survey/F8YYPHT).
 
-![qr_code](/qr/life-streaming-app-with-ivs.png)  
-
-[Survey Link](https://eventbox.dev/survey/F8YYPHT)
+![Survey QR Code](/qr/life-streaming-app-with-ivs.png)
