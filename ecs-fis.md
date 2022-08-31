@@ -18,7 +18,7 @@ You will execute the following experiment scenarios against an application that 
 
 2. Under `Your environments`, open the **Chaos Engineering on ECS (Level 300)** Cloud9 instance by clicking on **Open IDE**
 
-![Open IDE](document/images/cloud9_open_ide.png)
+![Open IDE](https://github.com/aws-samples/aws-anz-devlabs-ecs-fis/blob/main/document/images/cloud9_open_ide.png)
 
 3. Execute the following command in your Cloud9 terminal window. It will take approximately 5 mins to create all the required resources
     ```
