@@ -139,7 +139,7 @@ Learn how to become a super efficient user of the aws cli
 <img src="./media/consoleButton.png" width="20%">
 </a>
 
-<!--
+
 ### **11) Run Chaos Engineering experiments on Amazon Elastic Container Service with AWS Fault Injection Simulator**
 
 In this lab we will run chaos engineering experiments by injecting faults into Amazon ECS. We will observe how these experiments helps us to observe the resiliency of the application.
@@ -150,7 +150,7 @@ In this lab we will run chaos engineering experiments by injecting faults into A
 <a href="https://console.aws.amazon.com/console/home">
 <img src="./media/consoleButton.png" width="20%">
 </a>
--->
+
 
 ## Thanks for completing a lab, hope you had fun!
 

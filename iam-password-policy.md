@@ -53,7 +53,7 @@ Note: If you see a custom password policy defined, click on the **Delete** butto
 5. Open the [AWS CloudFormation console](https://console.aws.amazon.com/cloudformation/).<br>
 6. Click on **Create resources** *With new resources (standard)*.<br>
 7. Under *Create stack*, click on **Upload a template file**.<br>
-8. Download the [CloudFormation template file](devlab-iam-password-policy-change.yml) to your local disk.<br>
+8. Download the [CloudFormation template file](https://github.com/aws-samples/devlab-iam-password-policy/blob/main/devlab-iam-password-policy-change.yml) to your local disk.<br>
 9. Click on **Choose file** and select the file "devlab-iam-password-policy-change.yml" downloaded in previous step.<br>
 10. Wait till file is uploaded, and click **Next**.<br>
 11. Under *Specify stack details*, set the **Stack name** to "devlab-iam-password-policy" and click **Next**.<br>
