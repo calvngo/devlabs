@@ -116,19 +116,7 @@ The lab will involve participants loading some sample data into an S3 bucket. An
 <img src="./media/consoleButton.png" width="20%">
 </a>
 
-
-### **9) Quickly accelerate application performance using Amazon ElastiCache for Redis with AWS CDK**
-
-The lab showcases Amazon Elasticache through a demo App that can be deployed using CDK.
-
-<a href="https://bit.ly/3PNbioj">
-<img src="./media/labButton.png" width="20%">
-</a>
-<a href="https://console.aws.amazon.com/console/home">
-<img src="./media/consoleButton.png" width="20%">
-</a>
-
-### **10) Build a serverless application using AWS CDK for .NET**
+### **9) Build a serverless application using AWS CDK for .NET**
 
 Learn how to become a super efficient user of the aws cli
 
@@ -139,7 +127,20 @@ Learn how to become a super efficient user of the aws cli
 <img src="./media/consoleButton.png" width="20%">
 </a>
 
+<!--
+### **10) Quickly accelerate application performance using Amazon ElastiCache for Redis with AWS CDK**
 
+The lab showcases Amazon Elasticache through a demo App that can be deployed using CDK.
+
+<a href="https://bit.ly/3PNbioj">
+<img src="./media/labButton.png" width="20%">
+</a>
+<a href="https://console.aws.amazon.com/console/home">
+<img src="./media/consoleButton.png" width="20%">
+</a>-->
+
+
+<!--
 ### **11) Run Chaos Engineering experiments on Amazon Elastic Container Service with AWS Fault Injection Simulator**
 
 In this lab we will run chaos engineering experiments by injecting faults into Amazon ECS. We will observe how these experiments helps us to observe the resiliency of the application.
@@ -150,6 +151,7 @@ In this lab we will run chaos engineering experiments by injecting faults into A
 <a href="https://console.aws.amazon.com/console/home">
 <img src="./media/consoleButton.png" width="20%">
 </a>
+-->
 
 
 ## Thanks for completing a lab, hope you had fun!
