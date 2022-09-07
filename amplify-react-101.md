@@ -51,7 +51,7 @@ Install Amplify
 
 ```npm install -g @aws-amplify/cli```
 
-Before we go further make sure you go back to the console and search for CloudFormation -> Stack -> Outputs tab and make sure you have the details like accessKeyId and SecretAccessKey handy.
+Before we go further make sure you go back to the console and search for CloudFormation -> Stack -> DevLabs -> Outputs tab and make sure you have the details like accessKeyId and SecretAccessKey handy.
 
 ![](https://github.com/aws-samples/aws-amplify-react-101/blob/main/images/outputs.png)
 
