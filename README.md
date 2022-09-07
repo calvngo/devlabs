@@ -105,19 +105,7 @@ In this lab, you build a visual image search application from scratch in under 1
 </a>
 
 
-### **8) Run Chaos Engineering experiments on Amazon Elastic Container Service with AWS Fault Injection Simulator**
-
-In this lab we will run chaos engineering experiments by injecting faults into Amazon ECS. We will observe how these experiments helps us to observe the resiliency of the application.
-
-<a href="https://bit.ly/3QKIuOA">
-<img src="./media/labButton.png" width="20%">
-</a>
-<a href="https://console.aws.amazon.com/console/home">
-<img src="./media/consoleButton.png" width="20%">
-</a>
-
-
-### **9) Using Amazon Macie to detect Sensitive Data in S3 buckets**
+### **8) Using Amazon Macie to detect Sensitive Data in S3 buckets**
 
 The lab will involve participants loading some sample data into an S3 bucket. And then enabling and running Macie on that specific bucket, and finally parsing through the results to view the outputs.
 
@@ -129,7 +117,7 @@ The lab will involve participants loading some sample data into an S3 bucket. An
 </a>
 
 
-### **10) Quickly accelerate application performance using Amazon ElastiCache for Redis with AWS CDK**
+### **9) Quickly accelerate application performance using Amazon ElastiCache for Redis with AWS CDK**
 
 The lab showcases Amazon Elasticache through a demo App that can be deployed using CDK.
 
@@ -140,7 +128,7 @@ The lab showcases Amazon Elasticache through a demo App that can be deployed usi
 <img src="./media/consoleButton.png" width="20%">
 </a>
 
-### **11) Build a serverless application using AWS CDK for .NET**
+### **10) Build a serverless application using AWS CDK for .NET**
 
 Learn how to become a super efficient user of the aws cli
 
@@ -150,6 +138,19 @@ Learn how to become a super efficient user of the aws cli
 <a href="https://console.aws.amazon.com/console/home">
 <img src="./media/consoleButton.png" width="20%">
 </a>
+
+<!--
+### **11) Run Chaos Engineering experiments on Amazon Elastic Container Service with AWS Fault Injection Simulator**
+
+In this lab we will run chaos engineering experiments by injecting faults into Amazon ECS. We will observe how these experiments helps us to observe the resiliency of the application.
+
+<a href="https://bit.ly/3QKIuOA">
+<img src="./media/labButton.png" width="20%">
+</a>
+<a href="https://console.aws.amazon.com/console/home">
+<img src="./media/consoleButton.png" width="20%">
+</a>
+-->
 
 ## Thanks for completing a lab, hope you had fun!
 
