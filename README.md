@@ -31,7 +31,6 @@ This lab walks you through the steps to host and deploy static websites to S3 us
 <a href="https://console.aws.amazon.com/console/home">
 <img src="./media/consoleButton.png" width="20%">
 </a>
-<a href="https://eventbox.dev/survey/S7CF9TH" target="_blank"><img src="./media/feedbackButton.png" width="20%"></a>
 
 
 ### **2) Build serverless data pipeline to process unstructured data (text) in your data lake**
@@ -44,7 +43,6 @@ In this lab, we will see how to process unstructured data using serverless optio
 <a href="https://console.aws.amazon.com/console/home">
 <img src="./media/consoleButton.png" width="20%">
 </a>
-<a href="https://eventbox.dev/survey/2QBDWOA" target="_blank"><img src="./media/feedbackButton.png" width="20%"></a>
 
 ### **3) Build a live streaming application with Amazon Interactive Video Service**
 
@@ -57,7 +55,6 @@ This lab will walk you through how you can build a live streaming mobile applica
 <a href="https://console.aws.amazon.com/console/home">
 <img src="./media/consoleButton.png" width="20%">
 </a>
-<a href="https://eventbox.dev/survey/F8YYPHT" target="_blank"><img src="./media/feedbackButton.png" width="20%"></a>
 
 
 ### **4) Bring your containerized web application online with Docker, AWS App Runner and Amazon Elastic Container Registry**
@@ -70,7 +67,6 @@ In this lab we will learn how to build a containerized web application, publish 
 <a href="https://console.aws.amazon.com/console/home">
 <img src="./media/consoleButton.png" width="20%">
 </a>
-<a href="https://eventbox.dev/survey/CAXEOXX" target="_blank"><img src="./media/feedbackButton.png" width="20%"></a>
 
 ### **5) Update IAM Password Policy Programmatically**
 
@@ -82,7 +78,6 @@ This lab walks you through the steps you need to take to automatically set the I
 <a href="https://console.aws.amazon.com/console/home">
 <img src="./media/consoleButton.png" width="20%">
 </a>
-<a href="https://eventbox.dev/survey/YO8E4WA" target="_blank"><img src="./media/feedbackButton.png" width="20%"></a>
 
 ### **6) AWS Amplify React 101**
 
@@ -94,7 +89,6 @@ Creating a React App hosted on Amplify that takes advantage of the seamless inte
 <a href="https://console.aws.amazon.com/console/home">
 <img src="./media/consoleButton.png" width="20%">
 </a>
-<a href="https://eventbox.dev/survey/0V41TAS" target="_blank"><img src="./media/feedbackButton.png" width="20%"></a>
 
 
 ### **7) Build a visual search engine using AWS AI ML services**
@@ -109,7 +103,6 @@ In this lab, you build a visual image search application from scratch in under 1
 <a href="https://console.aws.amazon.com/console/home">
 <img src="./media/consoleButton.png" width="20%">
 </a>
-<a href="https://eventbox.dev/survey/U1WSSW5" target="_blank"><img src="./media/feedbackButton.png" width="20%"></a>
 
 
 ### **8) Run Chaos Engineering experiments on Amazon Elastic Container Service with AWS Fault Injection Simulator**
@@ -122,7 +115,6 @@ In this lab we will run chaos engineering experiments by injecting faults into A
 <a href="https://console.aws.amazon.com/console/home">
 <img src="./media/consoleButton.png" width="20%">
 </a>
-<a href="https://eventbox.dev/survey/50M60TN" target="_blank"><img src="./media/feedbackButton.png" width="20%"></a>
 
 
 ### **9) Using Amazon Macie to detect Sensitive Data in S3 buckets**
@@ -135,7 +127,6 @@ The lab will involve participants loading some sample data into an S3 bucket. An
 <a href="https://console.aws.amazon.com/console/home">
 <img src="./media/consoleButton.png" width="20%">
 </a>
-<a href="https://eventbox.dev/survey/7TVOCNT" target="_blank"><img src="./media/feedbackButton.png" width="20%"></a>
 
 
 ### **10) Quickly accelerate application performance using Amazon ElastiCache for Redis with AWS CDK**
@@ -148,7 +139,6 @@ The lab showcases Amazon Elasticache through a demo App that can be deployed usi
 <a href="https://console.aws.amazon.com/console/home">
 <img src="./media/consoleButton.png" width="20%">
 </a>
-<a href="https://eventbox.dev/survey/06696LI" target="_blank"><img src="./media/feedbackButton.png" width="20%"></a>
 
 ### **11) Build a serverless application using AWS CDK for .NET**
 
@@ -160,7 +150,6 @@ Learn how to become a super efficient user of the aws cli
 <a href="https://console.aws.amazon.com/console/home">
 <img src="./media/consoleButton.png" width="20%">
 </a>
-<a href="https://eventbox.dev/survey/I7QTD9U" target="_blank"><img src="./media/feedbackButton.png" width="20%"></a>
 
 ## Thanks for completing a lab, hope you had fun!
 
